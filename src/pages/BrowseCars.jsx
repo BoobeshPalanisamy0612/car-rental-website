@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar";
 import SearchBar from "../components/SearchBar";
-import SortDropdown from "../components/SortDropdown";
+// import SortDropdown from "../components/SortDropdown";
 import FilterSidebar from "../components/FilterSidebar";
 import CarCard from "../components/CarCard";
 import { cars } from "../data/Cars";
@@ -47,7 +47,7 @@ export default function BrowseCars() {
                   <SearchBar />
                 </div>
 
-                <SortDropdown />
+                {/* <SortDropdown /> */}
 
               </div>
 
